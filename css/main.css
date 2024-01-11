@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.background-img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.container {
+    width: 1013px;
+    height: 548px;
+    border-radius: 30px;
+    background: #FFF;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    row-gap: 37px;
+
+}
+
+.content-img {
+    width: 486px;
+    height: 315px;
+    margin-top: 30px;
+    /* margin-left: 35px; */
+}
+
+.content-title {
+    max-width: 176.625px;
+    width: 100%;
+    color: #1345F9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25.79px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.content-list {
+    display: flex;
+    column-gap: 40px;
+    max-width: 442.581px;
+    width: 100%;
+}
+
+.link {
+    color: #1345F9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 29.019px;
+    font-weight: 400;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    row-gap: 20px;
+    padding-top: 20px;
+}
+
+.card-title {
+    max-width: 318px;
+    width: 100%;
+    color: #1345F9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25.703px;
+    font-weight: 400;
+}
+
+.card-title2 {
+    max-width: 316px;
+    width: 100%;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34.412px;
+    font-weight: 400;
+}
+
+.card-cost {
+    max-width: 94px;
+    width: 100%;
+    height: 37.342px;
+    color: #1345F9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38.031px;
+    font-weight: 400;
+}
+
+.card-desc {
+    max-width: 316px;
+    width: 100%;
+    height: 189px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20.963px;
+    font-weight: 400;
+}
+
+.card-btn {
+ 
+    height: 31px;
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25.79px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background-color: #1345F9; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 28px 60px;
+    border: 4px solid #1345F9;
+    transition: .5s;
+}
+
+.card-btn:hover {
+    background: none;
+    color: #1345F9;
+}
+
+.card-btn:active {
+    background-color: #1345F9;
+    color: #FFF;
+    opacity: .6;
+}
